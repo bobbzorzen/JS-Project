@@ -46,7 +46,7 @@ $(document).ready(function(){
 	var canvas = document.getElementById(canvasName);
 	var ctx    = canvas.getContext("2d");
 	var pauseImg = new Image();
-	pauseImg.src = 'http://bobbzorzen.se/playground/canvas/img/pause.png';
+	pauseImg.src = 'http://www.student.bth.se/~leol12/javascript/project/webroot//playground/canvas/img/pause.png';
 	var pause  = new Rectangle(canvas.width-35, canvas.height-35, 32, 32,"", pauseImg);
 	var canvasBox;
 	var player;
@@ -127,7 +127,7 @@ $(document).ready(function(){
 	function init() {
 		canvasBox 		= {x:40, y:40, width:canvas.width-80, height:canvas.height-80};
 		img 			= new Image();
-		img.src 		= 'http://bobbzorzen.se/playground/canvas/img/ship.png';
+		img.src 		= 'http://www.student.bth.se/~leol12/javascript/project/webroot//playground/canvas/img/ship.png';
 		player 			= new Rectangle((canvas.width/2), (canvasBox.height+canvasBox.y-32-16), 32, 32, "", img);
 		player.vx 		= 5;
 		keys 			= [];
